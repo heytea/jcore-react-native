@@ -1,6 +1,6 @@
 {
   "name": "@heytea/jcore-react-native",
-  "version": "1.0.0",
+  "version"    : "1.9.4",
   "description": "React Native JCore component for Android and iOS",
   "homepage"   : "https://github.com/jpush/jcore-react-native",
   "main"       : "index.js",
@@ -17,13 +17,13 @@
     "type": "git",
     "url": "https://github.com/jpush/jcore-react-native"
   },
-  "keywords": [
-    "jcore",
+  "keywords"   : [
+    "react-native",
     "jiguang",
-    "react-native"
+    "JCore"
   ],
-  "author": "heytea",
-  "license": "MIT",
+  "author": "wicked.tc130",
+  "license": "ISC",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md"
 }
