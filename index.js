@@ -1,5 +1,4 @@
 import {
-    DeviceEventEmitter,
     NativeModules,
     Platform
 } from 'react-native'
@@ -13,12 +12,12 @@ export default class JCore {
    JCoreModule.setAuth(auth)
  }
  static testCountryCode(params) {
-   if (Platform.OS == "android") {
+   if (Platform.OS === "android") {
       JCoreModule.testCountryCode(params)
    }
  }
  static enableAutoWakeup(enable) {
-   if (Platform.OS == "android") {
+   if (Platform.OS === "android") {
       JCoreModule.enableAutoWakeup(enable)
    }
  }
