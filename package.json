@@ -1,9 +1,10 @@
 {
   "name": "@heytea/jcore-react-native",
-  "version"    : "1.9.4",
+  "version"    : "2.0.2",
   "description": "React Native JCore component for Android and iOS",
   "homepage"   : "https://github.com/jpush/jcore-react-native",
   "main"       : "index.js",
+  "types": "index.d.ts",
   "files": [
     "README.md",
     "android",
