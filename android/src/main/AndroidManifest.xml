@@ -40,7 +40,8 @@
         </service>
 
         <service android:name="cn.jiguang.plugins.service.JCoreModuleService"
-            android:exported="true">
+                 android:stopWithTask="true"
+                 android:exported="true">
             <intent-filter>
                 <action android:name="cn.jiguang.user.service.action" />
             </intent-filter>
